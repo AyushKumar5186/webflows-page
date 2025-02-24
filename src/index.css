@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@import '../node_modules/vanilla-infinite-marquee/infinite-marquee.css';
+
+
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
