@@ -64,7 +64,7 @@ const CompanySection = () => {
 
                     <div
                         ref={scrollRef}
-                        className="flex gap-6 overflow-x-auto no-scrollbar scroll-smooth  lg:pl-28 max-lg:py-12"
+                        className="flex gap-6 overflow-x-auto no-scrollbar scroll-smooth  lg:pl-28 max-lg:py-12 lg:py-16"
                         data-aos = "fade"
                     >
                         {

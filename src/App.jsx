@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/Home/index.jsx"
-import AboutPage from "./pages/About/index.jsx"
+import HomePage from "./pages/Home"
+import AboutPage from "./pages/About"
 import AOS from "aos"
 import "aos/dist/aos.css"
 export const menuContext = createContext();
