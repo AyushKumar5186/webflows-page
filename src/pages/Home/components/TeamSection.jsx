@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import img1 from "../../../assets/1st.png"
 import img2 from "../../../assets/2nd.png"
-import Accordian from '../../../components/accordian'
+import Accordian from '../../../components/Accordian'
 import Button from '../../../components/Button'
 
 const TeamSection = () => {
