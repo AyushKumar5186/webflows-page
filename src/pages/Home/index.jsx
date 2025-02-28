@@ -13,7 +13,7 @@ import FooterSection from "../../components/FooterSection"
 const HomePage = () => {
   document.title = "Home V5 - Technology Webflow Template | MegaTech"
   return (
-        <div className='w-full'>
+        <div className='w-full overflow-hidden'>
           <Hero/>
         <div className='container mx-auto max-lg:p-3 lg:px-6'>
           <CompanySection/>
