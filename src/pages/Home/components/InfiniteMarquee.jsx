@@ -29,7 +29,7 @@ function InfiniteMarquee({ dataType, dataArray, speed, direction, className }) {
 						<div>
 							<img
 							key={index}
-							src={imgSrc}
+							src={imgSrc.img}
 							alt={`Image ${index + 1}`}
 							style={{ margin: '0 140px' }}
 						/>

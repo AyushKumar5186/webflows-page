@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Button from './Button'
 import { AlignJustify, Plus } from 'lucide-react'
-import logo from "../assets/weblogo.svg"
+import logo from "../assets/newlogo.png"
 
 
 const Navbar = ({Home, menuOpen, setMenuOpen}) => {
@@ -10,11 +10,11 @@ const Navbar = ({Home, menuOpen, setMenuOpen}) => {
   return (
     <nav >
         <header className=' relative' >
-            <div className='flex justify-between items-center px-8 py-4 transition-all duration-500'>
+            <div className='flex justify-between items-center px-6 max-sm:px-2 py-4 transition-all duration-500'>
                 <div>
                 {
                     Home ?
-                    <img src={logo} alt="" width={120} height={120} className='hover:scale-105 transition-all duration-300 cursor-pointer'/>
+                    <img src={logo} alt="" width={250} height={250} className='hover:scale-105 max-sm:scale-90 transition-all duration-300 cursor-pointer'/>
                     :
                     <img src={"https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665774a9892f8e3facb3cbde_logo-mega-tech-webflow-ecommerce-template.svg"} alt="" width={120} height={120} className='hover:scale-105 transition-all duration-300 cursor-pointer'/>
                 }

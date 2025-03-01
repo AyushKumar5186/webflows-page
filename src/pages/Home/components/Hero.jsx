@@ -7,7 +7,11 @@ import InfiniteMarquee from './InfiniteMarquee'
 import Navbar from '../../../components/Navbar'
 import { Link } from 'react-router-dom'
 import { menuContext } from '../../../App'
-
+import img1 from "../../../assets/1.png"
+import img2 from "../../../assets/2.png"
+import img3 from "../../../assets/3.png"
+import img4 from "../../../assets/4.png"
+import img5 from "../../../assets/5.png"
 
 
 const Hero = () => {
@@ -15,13 +19,22 @@ const Hero = () => {
     const {menuOpen, setMenuOpen} = useContext(menuContext)
 
     const ImageList = [
-        "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a1489ce5a162540052bfd_company-logo-neutral-600-mega-webflow-template.svg",
-        "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a14898e725bfc62077720_agency-logo-neutral-600-mega-webflow-template.svg",
-        "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a14898e725bfc62077709_venture-logo-neutral-600-mega-webflow-template.svg",
-        "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a14898e8e5eac9b1e37b7_startup-logo-neutral-600-mega-webflow-template.svg",
-        "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a1489bf6da39aa488450e_institute-logo-neutral-600-mega-webflow-template.svg",
-        "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a1489a0df2801cc7ce0e5_enterprise-logo-neutral-600-mega-webflow-template.svg"
-    ]
+        {
+            img: img1,
+        },
+        {
+            img: img2,
+        },
+        {
+            img: img3,
+        },
+        {
+            img: img4,
+        },
+        {
+            img: img5,
+        },
+        ,]
 
     return (
         <main className=''>
