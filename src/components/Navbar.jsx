@@ -24,17 +24,17 @@ const Navbar = ({Home, menuOpen, setMenuOpen}) => {
                 <div className='text-xl gap-8 items-center text-white font-normal hidden lg:flex transition-all duration-500'>
                 <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Home</Link>
                 <Link to={"/about"} className='hover:text-gray-400 transition-all duration-300'>About</Link>
-                <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Pages</Link>
-                <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Features</Link>
-                <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Pricing</Link>
+                <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Contact Us</Link>
+                {/* <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Features</Link>
+                <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Pricing</Link> */}
             </div>
             :
             <div className='text-xl gap-8 items-center text-[#0f2678] font-normal hidden lg:flex transition-all duration-500'>
                 <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Home</Link>
                 <Link to={"/about"} className='hover:text-blue-500 transition-all duration-300'>About</Link>
-                <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Pages</Link>
-                <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Features</Link>
-                <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Pricing</Link>
+                <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Contact Us</Link>
+                {/* <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Features</Link>
+                <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Pricing</Link> */}
             </div>
             }
             <div className='flex space-x-6 items-center transition-all duration-700'>

@@ -10,22 +10,24 @@ const TeamSection = () => {
 
   const data = [{
     id: 1,
-    title: "About our team",
-    desc: "Gravida enim ut velit massa sed tortor ligula risus leo arcu cras amet aenean aliquam ornare amet dolor mi morbi semper nulla vitae rhoncus vel turpis potenti eget orci a hendrerit enim non",
+    title: "Delivering measurable success for brands across industries.",
+    desc: "From dynamic digital campaigns and custom websites to engaging multimedia content, our portfolio reflects our commitment to excellence and innovation.",
     img: img1
 
-  },{
-    id: 2,
-    title: "Our mission",
-    desc: "Gravida enim ut velit massa sed tortor ligula risus leo arcu cras amet aenean aliquam ornare amet dolor mi morbi semper nulla vitae rhoncus vel turpis potenti eget orci a hendrerit enim non",
-    img: img2
-  }]
+  },
+  // {
+  //   id: 2,
+  //   title: "Our mission",
+  //   desc: "Gravida enim ut velit massa sed tortor ligula risus leo arcu cras amet aenean aliquam ornare amet dolor mi morbi semper nulla vitae rhoncus vel turpis potenti eget orci a hendrerit enim non",
+  //   img: img2
+  // }
+  ]
   return (
     <section className='h-full '>
         <div className='h-full bg-gradient-to-b from-[#f4f8ff] to-[#d5e4ff] rounded-4xl px-12 py-20'>
           <div className='flex justify-center items-center mb-12 '>
             <h2 data-aos = "fade" className='text-center text-3xl md:text-4xl lg:text-[48px] lg:leading-16 text-[#0f2678] font-semibold max-lg:w-full lg:max-w-[600px]'>
-              A highly skilled team working on your side
+              Our works
             </h2>
           </div>
           <div>
@@ -47,7 +49,7 @@ const TeamSection = () => {
             </div>
           </div>
           <div className='my-8 flex justify-center' data-aos = "fade">
-                  <Button Variant={"Tertiary"} Text={"More about us"} classes= "py-3 rounded-2xl text-xl "/>
+                  <Button Variant={"Tertiary"} Text={"Browse portfolio"} classes= "py-3 rounded-2xl text-xl "/>
                 </div>
 
         </div>

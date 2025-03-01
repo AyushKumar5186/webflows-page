@@ -13,52 +13,52 @@ import mainImg4 from "../../../assets/mainImg4.jpg"
 
 const ProcessSection = () => {
 
-    const [label, setLabel] = useState("1. Initial Consultation")
+    const [label, setLabel] = useState("1. Discovery")
 
     const btnData = [{
         img: img1,
-        label: "1. Initial Consultation"
+        label: "1. Discovery"
     }, {
         img: img2,
         label: "2. Strategy"
     }, {
         img: img3,
-        label: "3. Development"
+        label: "3. Execution"
     }, {
         img: img4,
-        label: "4. Launch"
+        label: "4. Analysis"
     }]
 
     const data = [{
 
         mainImg: mainImg1,
-        title: "1. Initial Consultation",
-        main: "Understand your needs and objectives",
-        para: "Pellentesque ornare nibh metus metus placerat pharetra at cursus est dui suspendisse magna morbi netus eget ultricies vitae mus pharetra libbero viverra tellus morbi mauris pellentesque odio donec nulla urna amet."
+        title: "1. Discovery",
+        main: "Understanding Your Business",
+        para: "We begin by deeply understanding your brand, audience, and goals"
 
     },
     {
 
         mainImg: mainImg2,
         title: "2. Strategy",
-        main: "Define the best approach for you",
-        para: "Pellentesque ornare nibh metus metus placerat pharetra at cursus est dui suspendisse magna morbi netus eget ultricies vitae mus pharetra libbero viverra tellus morbi mauris pellentesque odio donec nulla urna amet."
+        main: "Custom-Tailored Solutions",
+        para: "Our experts develop a custom plan precisely aligned with your business needs"
 
     },
     {
 
         mainImg: mainImg3,
-        title: "3. Development",
-        main: "Develop a custom solution for your needs",
-        para: "Pellentesque ornare nibh metus metus placerat pharetra at cursus est dui suspendisse magna morbi netus eget ultricies vitae mus pharetra libbero viverra tellus morbi mauris pellentesque odio donec nulla urna amet."
+        title: "3. Execution",
+        main: "Bringing Your Vision to Life",
+        para: "From digital campaigns and website development to multimedia production, we transform your vision into reality"
 
     },
     {
 
         mainImg: mainImg4,
-        title: "4. Launch",
-        main: "Execute and constantly evaluate results",
-        para: "Pellentesque ornare nibh metus metus placerat pharetra at cursus est dui suspendisse magna morbi netus eget ultricies vitae mus pharetra libbero viverra tellus morbi mauris pellentesque odio donec nulla urna amet."
+        title: "4. Analysis",
+        main: "Ensuring Last-Term Success",
+        para: "We continuously monitor and optimize our strategies to secure lasting success."
 
     },
     ]
@@ -99,7 +99,7 @@ const ProcessSection = () => {
                                     <div className='flex flex-col  h-full p-6  lg:p-12'>
                                         <h3 className='text-xl md:text-2xl lg:text-3xl text-[#6477b4] font-semibold'>{item.title}</h3>
                                         <div className='max-lg:mt-4 lg:mt-48'>
-                                            <h3 className=' text-[#0f2678] lg:max-w-[250px] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold w-full'>
+                                            <h3 className=' text-[#0f2678] max-w-[600px] text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold w-full'>
                                                 {item.main}
                                             </h3>
                                             <p className='text-[#6477b4] text-lg font-normal w-full lg:max-w-[500px] py-6'>{item.para}</p>

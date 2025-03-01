@@ -34,16 +34,16 @@ const Hero = () => {
                 <div className={` ${menuOpen ? "flex absolute top-0 opacity-100" : "absolute -top-96 opacity-0"} flex   lg:hidden w-full text-lg px-8 gap-4 py-3 flex-col  bg-white text-[#0f2678] font-normal transition-all duration-500`}>
                 <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Home</Link>
                 <Link to={"/about"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>About</Link>
-                <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Pages</Link>
-                <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Features</Link>
-                <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Pricing</Link>
+                <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Contact Us</Link>
+                {/* <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Features</Link>
+                <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Pricing</Link> */}
             </div>
             </div>
 
                 <div className='grid grid-cols-2 place-items-center max-lg:grid-cols-1 px-4 ' >
                     <div className='flex flex-col gap-8  relative z-20 max-lg:mt-12'>
-                        <h2 data-aos = "fade" className='max-sm:text-4xl text-5xl md:text-6xl lg:text-7xl font-semibold  text-white max-w-[600px]'>
-                        We help startups to integrate AI to their products
+                        <h2 data-aos = "fade" className='max-sm:text-3xl text-4xl md:text-5xl lg:text-6xl  text-white max-w-[300px] md:max-w-[500px]'>
+                         Empowering your <span className='max-sm:text-4xl text-5xl md:text-6xl lg:text-7xl font-bold'>Digital presence</span>
                     </h2>
                     <div data-aos = "fade" className='flex gap-4 max-sm:flex-col'>
                         <Button Text={"Get in touch"} Variant={"Primary"}  classes='max-sm:w-full'/>

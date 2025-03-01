@@ -40,7 +40,7 @@ const OfficeSection = () => {
                 </div>
                 <div className=''>
                     <div data-aos = "fade" className='flex justify-center items-center mt-10 mb-10'>
-                        <Button Variant={"Primary"} Text={"Join our team"} classes='max-sm:w-full'/>
+                        <a href="http://api.whatsapp.com/send?phone=6200849251"><Button Variant={"Primary"} Text={"Join our team"} classes=" max-sm:w-full"/></a>
                     </div>
 
                 </div>

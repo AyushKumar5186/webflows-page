@@ -6,32 +6,32 @@ const ValuesSection = () => {
     const Data = [{
     img: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/66636365d8211be9bc73bd64_innovative-thinking-value-icon-mega-webflow-template.png",
     title: "Innovative thinking",
-    para: "Vitae morbi vel a diam dolor serlol pellentesque donec ipsum miomer tincidunt vitae quam sus."
+    para: "Embrace bold ideas to drive breakthrough innovation."
   },
   {
     img: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/666363652de955b9aa569468_customer-focus-value-icon-mega-webflow-template.png",
     title: "Customer focus",
-    para: "Cum ac velit nulla ornare ante id amet quis fames molestie hendrerit mi innisi pellentesque."
+    para: "Prioritize client needs for lasting business relationships."
   },
   {
     img: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/6663636691c663618a1a22b8_agile-adaptation-value-icon-mega-webflow-template.png",
     title: "Agile adaptation",
-    para: "Ornare suscipit lacus amet quisolo consequat amet ultrices derlm consectetur porta aliquet."
+    para: "Quickly adjust strategies to meet dynamic market demands."
   },
   {
     img: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/666363650e31e7c1fc99df8e_collaborative-spirit-value-icon-mega-webflow-template.png",
     title: "Collaborative spirit",
-    para: "Eget elit condimentum aliquam commodo est suspendisse consectetur velit amet pulvina."
+    para: "Foster teamwork to achieve collective success."
   },
   {
     img: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/666363654cff98ead2baa9a2_relentless-excellence-value-icon-mega-webflow-template.png",
     title: "Relentless excellence",
-    para: "Malesuada magna volutpat faucibus non vestibulum volutpat malesuada vestibulum eget."
+    para: "Pursue perfection with unwavering commitment every day."
   },
   {
     img: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/6663636655fd4d9326b87a1b_continuous-improvement-value-icon-mega-webflow-template.png",
     title: "Continuous improvement",
-    para: "Egestas donec praesent sapien lorem euismod volutpat sed tempor mi cursus venenas."
+    para: "Constantly evolve processes for superior, innovative outcomes."
   },
   ]
 
@@ -69,7 +69,7 @@ const ValuesSection = () => {
                     </div>
 
                     <div className='flex justify-center items-center mt-10' data-aos = "fade"> 
-                        <Button Variant={"Primary"} Text={"Join our team"} classes='max-sm:w-full'/>
+                        <a href="http://api.whatsapp.com/send?phone=6200849251"><Button Variant={"Primary"} Text={"Join our team"} classes=" max-sm:w-full"/></a>
                     </div>
                     </div>
 

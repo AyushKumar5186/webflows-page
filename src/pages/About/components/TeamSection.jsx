@@ -37,8 +37,8 @@ const TeamSection = () => {
         <section>
             <div className=' h-full  container mx-auto  overflow-hidden'>
                 <div className='flex items-center flex-col relative z-10 p-6 md:p-16 pb-8 md:pb-8 mt-16'>
-                    <h3 data-aos = "fade" className='text-4xl leading-10 max-w-fit sm:max-w-[640px] sm:leading-14 sm:text-4xl md:text-5xl md:leading-16 text-center text-[#0f2678] font-semibold '>Meet the team behind Mega</h3>
-                    <p data-aos = "fade" className='text-md lg:text-lg text-[#6477b4]  max-w-[550px] text-center'>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel venenatis eu sit elit dolor posuere massa volutpat.</p>
+                    <h3 data-aos = "fade" className='text-4xl leading-10 max-w-fit sm:max-w-[640px] sm:leading-14 sm:text-4xl md:text-5xl md:leading-16 text-center text-[#0f2678] font-semibold '>Meet the team behind Vcode.digital</h3>
+                    <p data-aos = "fade" className='text-md lg:text-lg text-[#6477b4]  max-w-[550px] text-center'>Be part of a team that's reshaping the digital future. Browse all open positions and join us!</p>
 
                 </div>
                 <div className='flex justify-center'>
@@ -61,12 +61,12 @@ const TeamSection = () => {
                     }
                 </div>
                 </div>
-                <div className='' data-aos = "fade">
+                {/* <div className='' data-aos = "fade">
                     <div className='flex justify-center items-center mt-10'>
-                        <Button Variant={"Primary"} Text={"Join our team"} classes='max-sm:w-full' />
+                        <a href="http://api.whatsapp.com/send?phone=6200849251"><Button Variant={"Primary"} Text={"Join our team"} classes=" max-sm:w-full"/></a>
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
         </section>

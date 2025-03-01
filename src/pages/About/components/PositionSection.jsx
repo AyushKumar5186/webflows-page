@@ -34,12 +34,12 @@ const PositionSection = () => {
     return (
         <section>
             <div className=' h-full  container mx-auto  overflow-hidden'>
-                <div className='flex items-center flex-col relative z-10 p-6 md:p-16 pb-8 md:pb-8 mt-16'>
+                {/* <div className='flex items-center flex-col relative z-10 p-6 md:p-16 pb-8 md:pb-8 mt-16'>
                     <h3 data-aos = "fade" className='text-4xl leading-10 max-w-fit sm:max-w-[640px] sm:leading-14 sm:text-4xl md:text-5xl md:leading-16 text-center text-[#0f2678] font-semibold max-sm:my-4'>Open positions</h3>
                     <p data-aos = "fade" className='text-md lg:text-lg text-[#6477b4]  max-w-[550px] text-center'>Lorem ipsum dolor sit amet consectetur adipiscing elidolor mattis sit phasellus mollis sit aliquam sit nullam neques.</p>
 
-                </div>
-                <div className='grid grid-cols-1 place-items-center gap-6 my-4'>
+                </div> */}
+                {/* <div className='grid grid-cols-1 place-items-center gap-6 my-4'>
                     {
                         Data.map((item, idx) => (
                             <div data-aos = "fade" key={idx} className=' max-w-[650px] w-full min-h-[200px] h-full rounded-3xl shadow-[inset_0_-2px_8px_rgba(0,0,0,0.3)] py-8 px-8 group hover:scale-[1.01] transition-all duration-1000 cursor-pointer 
@@ -67,15 +67,15 @@ const PositionSection = () => {
                             </div>
                         ))
                     }
-                </div >
+                </div > */}
 
                 <div className='flex justify-center my-6  overflow-hidden'>
                     <div data-aos = "fade" className=' max-w-[650px] w-full min-h-[200px] h-full rounded-3xl shadow-[inset_0_-2px_8px_rgba(0,0,0,0.3)] py-8 group hover:scale-[1.01] transition-all duration-1000 cursor-pointer bg-gradient-to-b from-[#0f2678] to-[#000e41] relative z-10 overflow-hidden    
                             '>
                                 <div className='px-8'>
-                                    <h3 className='text-white text-2xl text-center font-semibold max-w-[600px] py-3'>Are you ready to be part of something amazing? Browse all our open positions.</h3>
+                                    <h3 className='text-white text-xl text-center  max-w-[600px] py-3'>Experience the digital transformation with VCode Digital. Follow our journey and subscribe to our newsletter for the latest insights and updates.</h3>
                         <div className='flex justify-center items-center mt-10'>
-                        <Button Variant={"Primary"} Text={"Join our team"} classes='max-sm:w-full' />
+                        <a href="http://api.whatsapp.com/send?phone=6200849251"><Button Variant={"Primary"} Text={"Join our team"} classes=" max-sm:w-full"/></a>
                     </div>
 
                                 </div>

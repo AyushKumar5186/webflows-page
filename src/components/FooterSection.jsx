@@ -31,24 +31,25 @@ const FooterSection = () => {
                         <div className='flex justify-between items-center max-lg:flex-col max-lg:gap-6'>
                             <div className=''>
                                 <h3 data-aos = "fade" className='text-4xl text-white font-semibold max-lg:w-full lg:max-w-[520px] '>
-                                Experience the era of AI in your pocket
+                                Experience the era of Digitalization in your pocket
                             </h3>
                             </div>
-                            <div  className='max-sm:flex max-sm:justify-center w-full'>
+                            {/* <div  className='max-sm:flex max-sm:justify-center w-full'>
                                 <div data-aos = "fade" className='flex gap-6 items-center max-sm:flex-col w-full'>
                                     <Button Text={"Download for iOS"} classes={"px-4 py-2 rounded-3xl max-sm:w-full"} />
                                     <Button Text={"Download for Android"} classes={"px-4 py-2 rounded-3xl max-sm:w-full"} />
 
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div data-aos = "fade-left" className='my-16 border-b-1 border-gray-500/50' />
 
-                        <div  className='flex max-lg:justify-between max-lg:flex-col gap-8 lg:justify-between'>
-                            <div data-aos = "fade"> 
+                        <div  className='flex max-lg:justify-between max-lg:flex-col gap-8 lg:justify-between max-sm:text-center'>
+                            <div data-aos = "fade" className='max-sm:flex max-sm:flex-col max-sm:items-center'> 
                                 <img src={logo} alt="" />
-                                <p className='text-gray-300 max-w-[400px] text-lg my-4'>Lorem ipsum dolor sit amet consectetur utlmerol consequat luctus a ornare auctor mauris necol.</p>
-                                <p className='text-md text-white font-semibold pb-3'>Join our newsletter!</p>
+                                <p className='text-gray-300 max-w-[400px] text-lg my-4'>At VCode.Digital, we empower businesses to thrive online. Our expert team crafts custom solutions that connect brands with audiences and drive growth.</p>
+                            <a href="http://api.whatsapp.com/send?phone=6200849251"><Button Variant={"Primary"} Text={"Contact Us"}/></a>
+                                {/* <p className='text-md text-white font-semibold pb-3'>Join our newsletter!</p>
                                 <div>
                                     <div className='flex bg-white py-2 px-4 rounded-lg lg:w-[400px] max-lg:w-full '>
                                     <input type="text" placeholder='Enter your email' className='placeholder:text-[#6477b4] placeholder:font-semibold w-full' />
@@ -63,9 +64,9 @@ const FooterSection = () => {
                                 <div className='py-2'>
 
                                     <p className='text-md text-white font-semibold'>No spam — Just one email per month.</p>
-                                </div>
+                                </div> */}
                             </div>
-                            <div className='flex gap-10 max-lg:flex-col'>
+                            {/* <div className='flex gap-10 max-lg:flex-col'>
                                 <div>
                                     <div className='text-white text-md mb-8' data-aos = "fade">
                                         Pages
@@ -117,13 +118,14 @@ const FooterSection = () => {
                                     </div>
                                 </div>
 
-                            </div>
+                            </div> */}
+
 
                         </div>
                         <div data-aos = "fade-left" className='my-12 border-b-1 border-gray-500/50' />
                         <div className='flex justify-between items-center max-sm:flex-col'>
-                            <p data-aos = "fade" className='text-gray-300 text-sm my-4 items-center'>Copyright © MegaTech Webflow Template | Designed by BRIX Templates</p>
-                            <div className='flex gap-2' data-aos = "fade">
+                            <p data-aos = "fade" className='text-gray-300 text-sm my-4 items-center'>Copyright © vcode.digital 2024</p>
+                            {/* <div className='flex gap-2' data-aos = "fade">
                                 {
                                     btnData.map((item, idx) => (
                                         <button key={idx} className='cursor-pointer flex justify-center items-center h-6 w-6 bg-gradient-to-b from-[#e9f1ff] to-[#b2cdff] rounded-sm'>
@@ -131,7 +133,7 @@ const FooterSection = () => {
                                         </button>
                                     ))
                                 }
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>

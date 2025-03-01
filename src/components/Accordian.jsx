@@ -12,13 +12,13 @@ const Accordian = ({open , setOpen, item, openArray, setOpenArray}) => {
     prev.includes(item.id) ? prev.filter((x) => x !== item.id) : [...prev, item.id]
   ) }
         >
-            <div className='shadow rounded-2xl'>
+            {/* <div className='shadow rounded-2xl'>
                 <img src={item.img} alt="" height={42} width={42} />
-            </div>
+            </div> */}
             <div className=''>
                 <div className='flex justify-between items-center'>
                 <h3 className='text-3xl text-[#0f2678] font-semibold mb-4'>{item.title}</h3>
-                <button className={` h-8 w-8  shadow  rounded-full  flex justify-center items-center transition-all duration-700 ${openArray.find(x=> x===item.id) ? 'bg-gradient-to-b from-[#679cff] to-[#2370ff] text-white shadow shadow-white' : 'text-gray-500 border-gray-400 -rotate-90 bg-white'}`}>
+                <button className={` p-1 sm:p-2 lg:p-3 shadow  rounded-full  flex justify-center items-center transition-all duration-700 ${openArray.find(x=> x===item.id) ? 'bg-gradient-to-b from-[#679cff] to-[#2370ff] text-white shadow shadow-white' : 'text-gray-500 border-gray-400 -rotate-90 bg-white'}`}>
                     <DownArrow/>
                 </button>
             </div>
