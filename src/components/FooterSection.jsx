@@ -1,7 +1,7 @@
 import React from 'react'
 import bright from '../assets/upBrightFoot.png'
 import Button from './Button'
-import logo from '../assets/weblogo.svg'
+import logo from '../assets/newlogo.png'
 import { Link } from 'react-router-dom'
 
 

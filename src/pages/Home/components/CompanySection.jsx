@@ -1,11 +1,13 @@
 import React, { useRef } from 'react'
 import Button from '../../../components/Button'
 import CompanyCard from '../../../components/CompanyCard'
-import img1 from "../../../assets/c-img1.png"
-import img2 from "../../../assets/c-img2.png"
-import img3 from "../../../assets/c-img3.png"
+import img1 from "../../../assets/compo1.png"
+import img3 from "../../../assets/compo3.png"
+import img2 from "../../../assets/compo2.png"
+import titleimg1 from "../../../assets/7.png"
+import titleimg2 from "../../../assets/8.png"
+import titleimg3 from "../../../assets/9.png"
 import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-
 
 
 const CompanySection = () => {
@@ -13,21 +15,21 @@ const CompanySection = () => {
     const data = [
         {
             id: 1,
-            titleImg: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/666205cceca17cc0b36f1df9_enterprise-logo-color-accent-mega-webflow-template.svg",
+            titleImg: titleimg1,
             title: "Social media management",
             para: "Build your brand’s community across all major platforms with tailored campaigns that drive engagement and loyalty",
             mainImg: img1
         },
         {
             id: 2,
-            titleImg: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/666205cd8c1c1c379b04255e_company-logo-color-accent-mega-webflow-template.svg",
+            titleImg: titleimg2,
             title: "Web Design & Development",
             para: "Create responsive, user-friendly websites that provide an outstanding digital experience",
             mainImg: img2
         },
         {
             id: 3,
-            titleImg: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/666205cce426caf5dc527c2c_agency-logo-color-accent-mega-webflow-template.svg",
+            titleImg: titleimg3,
             title: "Creative visual production",
             para: "Our Creative Visual Production services bring your brand to life through dynamic advertising videos, state-of-the-art CGI ads, and precise product shoots that capture every detail with flair.",
             mainImg: img3

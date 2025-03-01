@@ -6,7 +6,7 @@ function InfiniteMarquee({ dataType, dataArray, speed, direction, className }) {
 		const marquee = new InfiniteMarqueeLib({
 			element: `.${className}`,
 			speed: speed,
-            spaceBetween: "35px",
+            spaceBetween: "15px",
 			direction: direction,
 			duplicate: false,
 			smoothEdges: true,
@@ -32,11 +32,12 @@ function InfiniteMarquee({ dataType, dataArray, speed, direction, className }) {
 							src={imgSrc.img}
 							alt={`Image ${index + 1}`}
 							style={{ margin: '0 140px' }}
+							className='max-sm:scale-90 max-sm:mx-14 mx-36'
 						/>
 						</div>
 				  ))
 				: dataArray.map((text, index) => (
-						<div key={index} style={{ margin: '0 100px' }}>
+						<div key={index} style={{ margin: '0 50px' }}>
 							{text}
 						</div>
 				  ))}

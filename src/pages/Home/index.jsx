@@ -11,7 +11,7 @@ import AboutSection from './components/AboutSection'
 import FooterSection from "../../components/FooterSection"
 
 const HomePage = () => {
-  document.title = "Home V5 - Technology Webflow Template | MegaTech"
+  document.title = "Home - Vcode.digital"
   return (
         <div className='w-full overflow-hidden'>
           <Hero/>
@@ -21,7 +21,7 @@ const HomePage = () => {
         </div>
     <div className='container mx-auto max-lg:px-6 lg:px-16'>
         <TeamSection/>
-        <SpecialSection/>
+        {/* <SpecialSection/> */}
         <ContactSection/>
         <ProcessSection/>
         <Testimonials/>

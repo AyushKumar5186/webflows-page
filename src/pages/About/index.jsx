@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 const AboutPage = () => {
 
   const {menuOpen, setMenuOpen} = useContext(menuContext)
-  document.title = "About V1 - Technology Webflow Template | MegaTech"
+  document.title = "About - Vcode.digital"
 
   return (
     <div >

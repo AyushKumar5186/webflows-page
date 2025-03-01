@@ -74,7 +74,7 @@ const Hero = () => {
                     <InfiniteMarquee dataType='image'
 				dataArray={ImageList}
                 className='im-1'
-				speed={500000}
+				speed={200000}
 				direction='left'/>
                 </div>
                 </div>
