@@ -47,7 +47,7 @@ const Hero = () => {
                 <div className={` ${menuOpen ? "flex absolute top-0 opacity-100" : "absolute -top-96 opacity-0"} flex   lg:hidden w-full text-lg px-8 gap-4 py-3 flex-col  bg-white text-[#0f2678] font-normal transition-all duration-500`}>
                 <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Home</Link>
                 <Link to={"/about"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>About</Link>
-                <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Contact Us</Link>
+                <Link to={"/works"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Our Works</Link>
                 {/* <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Features</Link>
                 <Link to={"/"} onClick={()=> setMenuOpen(false)} className='hover:text-blue-500 transition-all duration-300'>Pricing</Link> */}
             </div>
@@ -59,8 +59,8 @@ const Hero = () => {
                          Empowering your <span className='max-sm:text-4xl text-5xl md:text-6xl lg:text-7xl font-bold'>Digital presence</span>
                     </h2>
                     <div data-aos = "fade" className='flex gap-4 max-sm:flex-col'>
-                        <Button Text={"Get in touch"} Variant={"Primary"}  classes='max-sm:w-full'/>
-                        <Button Text={"View projects"} Variant={"Secondary"} classes='max-sm:w-full'/>
+                        <a href="http://api.whatsapp.com/send?phone=6200849251"><Button Text={"Get in touch"} Variant={"Primary"}  classes='max-sm:w-full'/></a>
+                        <Link to={"/works"}><Button Text={"Our Works"} Variant={"Secondary"} classes='max-sm:w-full'/></Link>
                     </div>
                     </div>
 

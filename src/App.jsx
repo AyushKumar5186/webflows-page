@@ -4,6 +4,7 @@ import HomePage from "./pages/Home"
 import AboutPage from "./pages/About"
 import AOS from "aos"
 import "aos/dist/aos.css"
+import WorkPage from "./pages/OurWorks";
 export const menuContext = createContext();
 
 
@@ -28,6 +29,7 @@ const App = () => {
           <Route path='/' element={<HomePage />} />
           <Route path='/home' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />
+          <Route path='/works' element={<WorkPage />} />
         </Routes>
       </BrowserRouter>
     </menuContext.Provider>

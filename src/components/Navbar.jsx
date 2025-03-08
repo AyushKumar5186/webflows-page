@@ -25,7 +25,7 @@ const Navbar = ({Home, menuOpen, setMenuOpen}) => {
                 <div className='text-xl gap-8 items-center text-white font-normal hidden lg:flex transition-all duration-500'>
                 <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Home</Link>
                 <Link to={"/about"} className='hover:text-gray-400 transition-all duration-300'>About</Link>
-                <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Contact Us</Link>
+                <Link to={"/works"} className='hover:text-gray-400 transition-all duration-300'>Our Works</Link>
                 {/* <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Features</Link>
                 <Link to={"/"} className='hover:text-gray-400 transition-all duration-300'>Pricing</Link> */}
             </div>
@@ -33,14 +33,14 @@ const Navbar = ({Home, menuOpen, setMenuOpen}) => {
             <div className='text-xl gap-8 items-center text-[#0f2678] font-normal hidden lg:flex transition-all duration-500'>
                 <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Home</Link>
                 <Link to={"/about"} className='hover:text-blue-500 transition-all duration-300'>About</Link>
-                <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Contact Us</Link>
+                <Link to={"/works"} className='hover:text-blue-500 transition-all duration-300'>Our Works</Link>
                 {/* <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Features</Link>
                 <Link to={"/"} className='hover:text-blue-500 transition-all duration-300'>Pricing</Link> */}
             </div>
             }
             <div className='flex space-x-6 items-center transition-all duration-700'>
                 <div className='hidden md:flex transition-all duration-500'>
-                    <Button Text={"Buy Mega template"} Variant={"Primary"}/>
+                    <a href="http://api.whatsapp.com/send?phone=6200849251"><Button Text={"Connect With Us"} Variant={"Primary"}/></a>
                 </div>
                 <button className='bg-gradient-to-b  from-[#679cff] to-[#2370ff] md:from-[#0f2678] md:to-[#000e41] shadow-2xl md:shadow-[#000e41] rounded-lg p-2 cursor-pointer justify-center items-center flex lg:hidden transition-all duration-500 hover:scale-[1.01]'
                 onClick={()=> setMenuOpen(!menuOpen)}

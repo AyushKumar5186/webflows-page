@@ -3,44 +3,55 @@ import Button from '../../../components/Button'
 import TestiCards from '../../../components/TestiCards'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 
+import img1 from "../../../assets/1.png"
+import img2 from "../../../assets/2.png"
+import img3 from "../../../assets/3.png"
+import img4 from "../../../assets/4.png"
+import img5 from "../../../assets/5.png"
+
+import harsh from "../../../assets/client/harsh.jpg"
+import harsh2 from "../../../assets/client/harsh2.jpg"
+import akash from "../../../assets/client/akash.jpg"
+import athiya from "../../../assets/client/athiya.jpg"
+
 const Testimonials = () => {
 
     const data = [
         {
             id: 1,
-            company: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a14898e725bfc62077709_venture-logo-neutral-600-mega-webflow-template.svg",
-            dark: "“MegaAgency’s AI solutions boosted our customer engagement by 40%",
-            light: ", streamlining support and enhancing satisfaction”",
-            hostImg: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/66634b29249ccc8c97340fe7_sophie-moore-testimonial-avatar-v2-mega-webflow-template.jpg",
-            hostName: "Sophie Moore",
-            hostPost: "Lead of Finance at Venture"
+            company: img1,
+            dark: "“Thanks to Vcode digital's design team, our brand recognition increased by 40%",
+            light: "and social media engagement grew by 25% in just three months!”",
+            hostImg: akash,
+            hostName: "Akash Arora",
+            hostPost: "Samsung Smart Plaza"
         },
         {
             id: 2,
-            company: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a14898e725bfc62077720_agency-logo-neutral-600-mega-webflow-template.svg",
-            dark: "“Predictive analytics increased our sales forecast accuracy by 35%",
-            light: ", refining our marketing strategies”",
-            hostImg: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a38b60757159ffe1d0951_james-davis-testimonial-avatar-mega-webflow-template.jpg",
-            hostName: "John Carter",
-            hostPost: "Marketing Director at Agency"
+            company: img2,
+            dark: "“The new website not only looks great but reduced our bounce rate by 50% ",
+            light: "and boosted conversions by 30%. Timely and efficient service!”",
+            hostImg: harsh,
+            hostName: "Harsh Agarwal",
+            hostPost: "Oppo Showroom"
         },
         {
             id: 3,
-            company: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a14898e8e5eac9b1e37b7_startup-logo-neutral-600-mega-webflow-template.svg",
-            dark: "“AI-driven personalization boosted our conversion rates by 25%",
-            light: ", transforming customer experience”",
-            hostImg: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a38b5debc7a29c33c4f50_andy-smith-testimonial-avatar-mega-webflow-template.jpg",
-            hostName: "Andy Smith",
-            hostPost: "Marketing Director at Startup"
+            company: img3,
+            dark: "“Our lead generation jumped 60% and ROI on ads was 4x higher after working with Vcode digital",
+            light: " Their data-driven approach is spot on!”",
+            hostImg: harsh2,
+            hostName: "Harsh Agarwal",
+            hostPost: "Chicago Pizza"
         },
         {
             id: 4,
-            company: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a14898e725bfc62077720_agency-logo-neutral-600-mega-webflow-template.svg",
-            dark: "“The AI tools provided by MegaAgency allowed us to optimize our supply chain",
-            light: ", reducing logistics costs by 15%”",
-            hostImg: "https://cdn.prod.website-files.com/66574f97bde226d14822ffcf/665a38b5debc7a29c33c4f50_andy-smith-testimonial-avatar-mega-webflow-template.jpg",
-            hostName: "Lily Woods",
-            hostPost: "VP of Technology at Agency"
+            company: img4,
+            dark: "“In 6 months, we saw a 150% increase in traffic, a 35% sales boost, and a 20% increase in retention.",
+            light: " Vcode digital's holistic approach really works!”",
+            hostImg: athiya,
+            hostName: "Roshan Kumar",
+            hostPost: "Athiya Interiors"
         },
 
     ]

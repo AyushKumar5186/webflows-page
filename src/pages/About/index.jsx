@@ -25,7 +25,7 @@ const AboutPage = () => {
                 <div className={` ${menuOpen ? "flex absolute top-0 opacity-100" : "absolute -top-96 opacity-0"} flex   lg:hidden w-full text-lg px-8 gap-4 py-3 flex-col  bg-white text-[#0f2678] font-normal transition-all duration-500`}>
                 <Link to={"/home"} className='hover:text-blue-500 transition-all duration-300' onClick={()=> setMenuOpen(false)}>Home</Link>
                 <Link to={"/about"} className='hover:text-blue-500 transition-all duration-300' onClick={()=> setMenuOpen(false)}>About</Link>
-                <Link to={"/"} className='hover:text-blue-500 transition-all duration-300' onClick={()=> setMenuOpen(false)}>Contact Us</Link>
+                <Link to={"/works"} className='hover:text-blue-500 transition-all duration-300' onClick={()=> setMenuOpen(false)}>Our Works</Link>
                 {/* <Link to={"/"} className='hover:text-blue-500 transition-all duration-300' onClick={()=> setMenuOpen(false)}>Features</Link>
                 <Link to={"/"} className='hover:text-blue-500 transition-all duration-300' onClick={()=> setMenuOpen(false)}>Pricing</Link> */}
             </div>

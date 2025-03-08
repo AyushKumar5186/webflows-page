@@ -1,19 +1,22 @@
 import React from 'react'
 import Button from '../../../components/Button'
+import vishal from "../../../assets/team/vishal.png"
+import utkarsh from "../../../assets/team/utkarsh.jpg"
+import nitesh from "../../../assets/team/nitesh.jpg"
 
 const TeamSection = () => {
     const Data = [{
-        img: "https://cdn.prod.website-files.com/666755dfece26c866cdd0380/666c7dac2984ae078ea2000e_john-carter-team-member-thumbnail-mega-webflow-template-p-1080.jpg",
+        img: vishal,
         name: "John Carter",
         post: "CEO & Founder"
     },
     {
-        img: "https://cdn.prod.website-files.com/666755dfece26c866cdd0380/666c7d585fe6370f13209a76_sophie-moore-team-member-thumbnail-mega-webflow-template-p-1080.jpg",
+        img: utkarsh,
         name: "Sophie Moore",
         post: "CTO & Co-founder"
     },
     {
-        img: "https://cdn.prod.website-files.com/666755dfece26c866cdd0380/666c7d12d53b7d6ccdcc022f_matt-cannon-team-member-thumbnail-mega-webflow-template-p-1080.jpg",
+        img: nitesh,
         name: "Matt Cannon",
         post: "VP of Design"
     },

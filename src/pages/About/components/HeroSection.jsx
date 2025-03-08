@@ -3,8 +3,8 @@ import Button from '../../../components/Button'
 
 const HeroSection = () => {
   return (
-    <section>
-        <div className=' h-full container mx-auto'>
+    <section className=''>
+        <div className=' h-full container mx-auto '>
                 <div className='relative overflow-hidden w-full h-full bg-gradient-to-b from-[#f4f8ff] to-[#d5e4ff] rounded-3xl pt-20 ' data-aos = "fade">
                     <div className='flex items-center flex-col relative z-10 p-6 md:p-14 md:pb-0 pb-0'>
                         <h3 data-aos = "fade" className='text-4xl leading-10 max-w-fit sm:max-w-[550px] sm:leading-14 sm:text-5xl md:text-6xl md:leading-16 text-center text-[#0f2678] font-semibold '>Learn more about Vcode.digital's mission as a agency</h3>

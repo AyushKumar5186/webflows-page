@@ -42,7 +42,7 @@ const ValuesSection = () => {
                     <div className='px-16 py-12'>
                       <div className='flex items-center flex-col relative z-10 p-6 md:p-16 pb-8 md:pb-8'>
                         <h3 className='max-sm:text-3xl text-4xl leading-10 max-sm:min-w-96  sm:max-w-[550px] sm:leading-14 sm:text-5xl md:text-6xl md:leading-16 text-center text-[#0f2678] font-semibold ' data-aos = "fade">Our values</h3>
-                        <p data-aos = "fade" className='text-md lg:text-lg text-[#6477b4] py-4 max-lg:w-full lg:max-w-[550px] text-center'>Lorem ipsum dolor sit amet consectetur adipiscing elidolor mattis sit phasellus mollis sit aliquam sit nullam neques.</p>
+                        <p data-aos = "fade" className='text-md lg:text-lg text-[#6477b4] py-4 max-lg:w-full lg:max-w-[550px] text-center'>We Build Lasting Trust with Every Client, Delivering Excellence in Every Project to Ensure Continuous Success and Growth at Every Step.</p>
 
                     </div>
 
